@@ -1,0 +1,153 @@
+*{ 
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#titulosuperior{ 
+    font-size: 50px;
+    margin-left: 180px;
+    margin-top: 85px;
+}
+#paragrafo1{
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: 35px;
+}
+#parte1 {
+    background-image: url(imagens/fundo\ dnc.jpeg);
+    height: 600px;
+    color: whitesmoke;
+
+}
+#parte2 {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icones{
+    margin: 50px 0px 50px 180px; 
+    padding: 20px;
+}
+.textoinfo{
+    display: flex;
+    align-items: center;
+}
+#tituloparte3{
+    color: #247BA0;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+#txtparte3{
+    font-size: 25px;
+}
+#partevideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;   
+}
+#videoparte3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 180px ;
+    border-radius: 20px;
+}
+#carrossel{
+    background-color: #247BA0;
+}
+#titulocarrossel{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 0px 0px 100px 200px; 
+
+}
+.cards{
+    margin-left: 50px;
+}
+#setaesquerda{
+    display: none;
+}
+#card3{
+    display: none;
+
+}
+.setas{
+    margin-top: 100px;
+    cursor: pointer;
+}
+.setas:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+#formulario{
+    text-align: center;
+}
+#tituloparte4{
+    font-size: 40px;
+    padding: 50px;
+    color: #383838;
+}
+input{
+    background-color: #EAECE5;
+    margin-top: 40px;
+    padding: 15px;
+    width: 513px;
+    height: 43px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 20px;
+}
+#botãoemenda{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    width: 413px;
+    height: 58px;
+    color: white;
+    background-color: #247BA0;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 15px 20px #1d1f20;
+}
+button:hover{
+    color: white;
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 15px 20px #08141a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
